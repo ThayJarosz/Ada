@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="desafioAtividade4.css">
+    <title>Desafio Atividade 4 </title>
+</head>
+
+
+<body>
+    <div style="display: flex;">
+        <div style="width: 50%;">
+            <h1>Ajude a causa</h1>
+            <form action="http://localhost:3000/registrations" method="post">
+                <div class="espaco">
+                    <label for="nome" class="ordem">Nome*:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="espaco">
+                    <label for="idade" class="ordem">Idade*:</label>
+                    <input type="number" id="idade" name="idade" required>
+                </div>
+
+                <div class="espaco">
+                    <label for="email" class="ordem">Email*:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="espaco">
+                    <label for="tamanhoCamiseta" class="ordem">Informe o tamanho da camiseta*:</label>
+                    <select id="tamanhoCamiseta" name="tamanhoCamiseta" required>
+                        <option>Selecione um tamanho</option>
+                        <option value="pp">PP</option>
+                        <option value="p">P</option>
+                        <option value="m">M</option>
+                        <option value="g">G</option>
+                        <option value="gg">GG</option>
+                        <option value="xg">XG</option>
+                    </select>
+                </div>
+
+
+                <div class="espaco">
+                    <h4>Categoria da inscrição:</h4>
+                    <input type="radio" id="corrida3" name="categoria" value="corrida3" checked>
+                    <label for="corrida3">Corrida 3 Km</label>
+                    <input type="radio" id="corrida5" name="categoria" value="corrida5">
+                    <label for="corrida5">Corrida 5 Km</label>
+                    <input type="radio" id="caminhada4" name="categoria" value="caminhada4">
+                    <label for="caminhada4">Caminhada 4 Km</label>
+                </div>
+                <div class="espaco" style="margin-top: 1.33em;">
+                    <label for="doacao" class="ordem"><b>Faça uma doação:</b></label>
+                    <input type="number" id="doacao" name="doacao">
+                </div>
+
+                <div class="espaco"><button type="submit"><b>Enviar</b></button></div>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

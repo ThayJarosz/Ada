@@ -1,0 +1,22 @@
+body {
+    background-color: #dfdfdf;
+}
+
+input,
+textarea, select {
+    background: rgba(255, 255, 255, .5);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px;
+}
+button{
+    background: #2f4ad0;
+    border:none;
+    padding: 10px;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.espaco {
+    padding: 10px;
+}
