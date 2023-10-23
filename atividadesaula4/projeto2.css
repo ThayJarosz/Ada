@@ -8,7 +8,10 @@ body {
 }
 
 header {
-    background-color: #29a329;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('imgLivros.jpg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -90,6 +93,7 @@ footer nav li {
     margin: 0 20px;
     padding: 20px;
 }
+
 footer nav a {
     color: #fff;
     text-decoration: none;
@@ -97,6 +101,7 @@ footer nav a {
     background-color: transparent;
     transition: background-color 0.3s;
 }
+
 main {
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -104,6 +109,7 @@ main {
     overflow: scroll;
     scroll-behavior: smooth;
 }
+
 .card {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -113,14 +119,15 @@ main {
     height: fit-content;
     display: inline-block;
 }
+
 .card img {
     max-width: 100%;
     height: auto;
     width: 100%;
 }
+
 .categoria {
     overflow: auto;
-
 }
 
 .cabecalho {
@@ -171,5 +178,5 @@ input[type="submit"]:hover {
 }
 .logo {
     background-image: url("logotipoLivraria.png");
-    width: 50px;
+    width: 72px;
 }
